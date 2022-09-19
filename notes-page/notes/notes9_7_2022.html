@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wednesday, September 7 2022</title>
+  </head>
+  <body>
+    <h1>Front End Digital Notes Day 2 w/Ryan Curtis</h1>
+    <h1>@ 2500 West</h1>
+    <h1>Built from Scratch</h1>
+    <ul>
+      <li>github.com</li>
+      <li>Git Repository : tracks and saves the history of all changes made to the files in a Git project.</li>
+        <li>local : physical, locally-managed repositories to store internal binaries.</li>
+        <li>remote : versions of project hosted on the internet or network</li>
+      <li>gitkraken.com</li>
+      <li>Main Deployment : </li>
+      <li>Feature Branch : upstream branch</li>
+      <li>git commit -m : command used to save changes to the local repository. Must state which changes to include.</li>
+      <li>git add : the first command in a chain of operations that directs Git to save a snapshot of the current project state into commit history. On its own will promote pending changes from the working directory to the staging area.</li>
+      <li>git status : displays the state of the working directory and the staging area. Let's you see what changes have been staged, which haven't, and which aren't being tracked.</li>
+      <li>repot : </li>
+      <li>Intitial Commit : the first commit to start a new project.</li>
+      <li>Technical Documentation : </li>
+      <li>Staging for Commit : to prepare for a commit.</li>
+      <li>Conventions : </li>
+      <li>git log : a utility tool to review and read a history of everything that happens to a repository. A record of commits.</li>
+      <li>git help : a manual page display all information about git.</li>
+      <li>.gitignore : tells Git which files to ignore when committing to the repository.</li>
+      <li>git init : command used to initialize a new git repository or reinitialize a existing one. Transforms current directory into Git repository. Creates a new master branch.</li>
+      <li>git push : command to upload local repository content to a remote repository. Transfer commits from local repository to remote repository. Counterpart to git fetch.</li>
+      <li>git status : command displays the state of the working directory and the staging area.</li>  
+    </li>
+    </ul>
+  </body>
+  <body>
+    Workflow:
+  -New Repo:
+  --Local
+  >git init
+  >worked on changes
+  >git add
+  >git commit -m 'initial commit'
+  --Remote (Github)
+  >Login
+  >create a repository (name same or similar to local)
+  >Go back to the local git repo, add remote, change
+    >>copy commands from github paste into terminal
+    >>git push -u origin main
+  -Workin Repository:
+  --Local
+  >If this is a new feature:
+    >>git checkout -b <branch-name>
+    >>development
+    >>get add .
+    >>git commit -m 'explicit yet short message explainging changes'
+    >>git push -u <remote><branch-name>  
+  </body>
+  
+  </body>
+</html>
