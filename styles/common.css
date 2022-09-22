@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Alata", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+@import "./notes.css";
