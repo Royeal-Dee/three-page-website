@@ -1,0 +1,20 @@
+@media (max-width: 610px) {
+  .navbar {
+    height: 120px;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+  }
+
+  .page-content-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    display: none;
+  }
+}
